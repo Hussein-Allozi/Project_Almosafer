@@ -5,8 +5,8 @@
     <classes>
       <class name="TestingAlmosafer">
         <methods>
-          <include name="HotelSeleced"/>
           <include name="TheFirst"/>
+          <include name="FlightStrctrueAndReturn"/>
         </methods>
       </class> <!-- TestingAlmosafer -->
     </classes>

@@ -1,4 +1,7 @@
 import java.time.Duration;
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +25,7 @@ public class TestingAlmosafer {
 
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void CheckLanguage() {
 		String expected = "en";
 		String language = driver.findElement(By.tagName("html")).getAttribute("lang");
@@ -31,7 +34,7 @@ public class TestingAlmosafer {
 
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void CheckCurency() {
 		String ExpCurency = "SAR";
 		String ActualCurrency = driver.findElement(By.xpath("//button[@data-testid='Header__CurrencySelector']"))
@@ -40,7 +43,7 @@ public class TestingAlmosafer {
 //		System .out.println(ActualCurrency);
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void CheckNumber() {
 		String ExpNumber = "+966554400000";
 		String ActNum = driver.findElement(By.tagName("strong")).getText();
@@ -49,7 +52,7 @@ public class TestingAlmosafer {
 
 	}
 
-	@Test
+	@Test(priority = 4)
 	public void GitafLogo() {
 		boolean expect = true;
 		boolean logo = driver.findElement(By.cssSelector(".sc-bdVaJa.bxRSiR.sc-ekulBa.eYboXF")).isDisplayed();
@@ -58,13 +61,29 @@ public class TestingAlmosafer {
 
 	}
 
-	@Test
+	@Test(priority = 5)
 	public void HotelSeleced() {
 //      driver.findElement(By.id("uncontrolled-tab-example-tab-hotels")).click();
 		String ExpHotel = "false";
-		String hotelselected = driver.findElement(By.id("uncontrolled-tab-example-tab-hotels")).getAttribute("aria-selected");
+		String hotelselected = driver.findElement(By.id("uncontrolled-tab-example-tab-hotels"))
+				.getAttribute("aria-selected");
 		Assert.assertEquals(hotelselected, ExpHotel);
-		System.out.println(hotelselected);
+//		System.out.println(hotelselected);
+
+	}
+
+	@Test(priority = 6)
+	public void FlightStrctrueAndReturn() {
+		LocalDate date = LocalDate.now();
+		int Tomorow = date.plusDays(1).getDayOfMonth();
+		int AfterTomorow = date.plusDays(2).getDayOfMonth();
+		List<WebElement> depatureAndArrivalDates = driver.findElements(By.className("LiroG"));
+		String departure = depatureAndArrivalDates.get(0).getText();
+		String arival = depatureAndArrivalDates.get(1).getText();
+		int dep = Integer.parseInt(departure);
+		int ari = Integer.parseInt(arival);
+		Assert.assertEquals(Tomorow, dep);
+		Assert.assertEquals(AfterTomorow, ari);
 
 	}
 
