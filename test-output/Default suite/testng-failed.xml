@@ -6,7 +6,7 @@
       <class name="TestingAlmosafer">
         <methods>
           <include name="TheFirst"/>
-          <include name="FlightStrctrueAndReturn"/>
+          <include name="RandomLanguage"/>
         </methods>
       </class> <!-- TestingAlmosafer -->
     </classes>
