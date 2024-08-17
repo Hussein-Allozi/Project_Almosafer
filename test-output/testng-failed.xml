@@ -6,7 +6,7 @@
       <class name="TestingAlmosafer">
         <methods>
           <include name="TheFirst"/>
-          <include name="RandomLanguage"/>
+          <include name="RandomSeletRoom"/>
         </methods>
       </class> <!-- TestingAlmosafer -->
     </classes>
