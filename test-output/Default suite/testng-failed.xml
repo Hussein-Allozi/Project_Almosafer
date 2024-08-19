@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestingAlmosafer">
+      <class name="homePage.TestingAlmosafer">
         <methods>
+          <include name="SortLowestPrice"/>
           <include name="TheFirst"/>
-          <include name="RandomSeletRoom"/>
         </methods>
-      </class> <!-- TestingAlmosafer -->
+      </class> <!-- homePage.TestingAlmosafer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
