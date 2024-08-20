@@ -2,56 +2,56 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-19T08:48:03 PDT" name="Default suite" finished-at="2024-08-19T08:48:41 PDT" duration-ms="38042">
+  <suite started-at="2024-08-20T11:32:00 PDT" name="Default suite" finished-at="2024-08-20T11:33:21 PDT" duration-ms="80931">
     <groups>
     </groups>
-    <test started-at="2024-08-19T08:48:03 PDT" name="Default test" finished-at="2024-08-19T08:48:41 PDT" duration-ms="38042">
+    <test started-at="2024-08-20T11:32:00 PDT" name="Default test" finished-at="2024-08-20T11:33:21 PDT" duration-ms="80931">
       <class name="homePage.TestingAlmosafer">
-        <test-method is-config="true" signature="TheFirst()[pri:0, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:03 PDT" name="TheFirst" finished-at="2024-08-19T08:48:13 PDT" duration-ms="9927" status="PASS">
+        <test-method is-config="true" signature="TheFirst()[pri:0, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:00 PDT" name="TheFirst" finished-at="2024-08-20T11:32:19 PDT" duration-ms="19514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TheFirst -->
-        <test-method signature="CheckLanguage()[pri:1, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:13 PDT" name="CheckLanguage" finished-at="2024-08-19T08:48:13 PDT" duration-ms="142" status="PASS">
+        <test-method signature="CheckLanguage()[pri:1, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:20 PDT" name="CheckLanguage" finished-at="2024-08-20T11:32:20 PDT" duration-ms="538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckLanguage -->
-        <test-method signature="CheckCurency()[pri:2, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:13 PDT" name="CheckCurency" finished-at="2024-08-19T08:48:13 PDT" duration-ms="49" status="PASS">
+        <test-method signature="CheckCurency()[pri:2, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:21 PDT" name="CheckCurency" finished-at="2024-08-20T11:32:22 PDT" duration-ms="1177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckCurency -->
-        <test-method signature="CheckNumber()[pri:3, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:13 PDT" name="CheckNumber" finished-at="2024-08-19T08:48:13 PDT" duration-ms="41" status="PASS">
+        <test-method signature="CheckNumber()[pri:3, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:22 PDT" name="CheckNumber" finished-at="2024-08-20T11:32:22 PDT" duration-ms="571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckNumber -->
-        <test-method signature="GitafLogo()[pri:4, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:13 PDT" name="GitafLogo" finished-at="2024-08-19T08:48:13 PDT" duration-ms="112" status="PASS">
+        <test-method signature="GitafLogo()[pri:4, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:22 PDT" name="GitafLogo" finished-at="2024-08-20T11:32:23 PDT" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GitafLogo -->
-        <test-method signature="HotelSeleced()[pri:5, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:13 PDT" name="HotelSeleced" finished-at="2024-08-19T08:48:13 PDT" duration-ms="50" status="PASS">
+        <test-method signature="HotelSeleced()[pri:5, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:23 PDT" name="HotelSeleced" finished-at="2024-08-20T11:32:24 PDT" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelSeleced -->
-        <test-method signature="FlightStrctrueAndReturn()[pri:6, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:13 PDT" name="FlightStrctrueAndReturn" finished-at="2024-08-19T08:48:15 PDT" duration-ms="1288" status="PASS">
+        <test-method signature="FlightStrctrueAndReturn()[pri:6, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:24 PDT" name="FlightStrctrueAndReturn" finished-at="2024-08-20T11:32:24 PDT" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlightStrctrueAndReturn -->
-        <test-method signature="RandomLanguageCheck()[pri:7, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:15 PDT" name="RandomLanguageCheck" finished-at="2024-08-19T08:48:17 PDT" duration-ms="2151" status="PASS">
+        <test-method signature="RandomLanguageCheck()[pri:7, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:24 PDT" name="RandomLanguageCheck" finished-at="2024-08-20T11:32:32 PDT" duration-ms="8174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RandomLanguageCheck -->
-        <test-method signature="FillHotelTab()[pri:8, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:17 PDT" name="FillHotelTab" finished-at="2024-08-19T08:48:19 PDT" duration-ms="2212" status="PASS">
+        <test-method signature="FillHotelTab()[pri:8, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:32 PDT" name="FillHotelTab" finished-at="2024-08-20T11:32:35 PDT" duration-ms="3320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillHotelTab -->
-        <test-method signature="RandomlySelectTheNumberOfVistor()[pri:9, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:19 PDT" name="RandomlySelectTheNumberOfVistor" finished-at="2024-08-19T08:48:25 PDT" duration-ms="6185" status="PASS">
+        <test-method signature="RandomlySelectTheNumberOfVistor()[pri:9, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:35 PDT" name="RandomlySelectTheNumberOfVistor" finished-at="2024-08-20T11:32:56 PDT" duration-ms="20820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RandomlySelectTheNumberOfVistor -->
-        <test-method signature="CheckThePageFullyLoaded()[pri:10, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:25 PDT" name="CheckThePageFullyLoaded" finished-at="2024-08-19T08:48:40 PDT" duration-ms="14392" status="PASS">
+        <test-method signature="CheckThePageFullyLoaded()[pri:10, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:32:56 PDT" name="CheckThePageFullyLoaded" finished-at="2024-08-20T11:33:19 PDT" duration-ms="22781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckThePageFullyLoaded -->
-        <test-method signature="SortLowestPrice()[pri:11, instance:homePage.TestingAlmosafer@2002348]" started-at="2024-08-19T08:48:40 PDT" name="SortLowestPrice" finished-at="2024-08-19T08:48:41 PDT" duration-ms="1376" status="PASS">
+        <test-method signature="SortLowestPrice()[pri:11, instance:homePage.TestingAlmosafer@299321e2]" started-at="2024-08-20T11:33:19 PDT" name="SortLowestPrice" finished-at="2024-08-20T11:33:21 PDT" duration-ms="1446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SortLowestPrice -->
